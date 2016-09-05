@@ -16,7 +16,7 @@ post "/game/:gene/true"        =>     "game#confirm_gene"
 post  "/learn"              =>      "learn#trigger_artsy_api"
 get   "/learn"              =>      "learn#index"
 post  "/learn/search"       =>      "learn#render_artsy"
-post  "/learn/search/:gene"  =>     "learn#render_artsy"
+# post  "/learn/search/:gene"  =>     "learn#render_artsy"
 #
 #
 
